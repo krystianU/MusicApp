@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="library">Music library</string>
+    <string name="now_playing">Now playing</string>
+    <string name="search">Search online</string>
+    <string name="music_player">Music player</string>
+    <string name="search_box">Search</string>
+    <string name="search_edit_text_hint">Type here</string>
+    <string name="help">Help</string>
+
+</resources>
