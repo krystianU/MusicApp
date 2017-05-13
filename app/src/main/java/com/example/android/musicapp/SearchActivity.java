@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class SearchActivity extends AppCompatActivity {
 
@@ -13,13 +12,7 @@ public class SearchActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
-        ImageView help = (ImageView)findViewById(R.id.help_image_view);
-        help.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "In this activity you can search for the music in the internet database by typing queries in search box", Toast.LENGTH_LONG).show();
-            }
-        });
+
         ImageView home = (ImageView) findViewById(R.id.home_image_view);
         home.setOnClickListener(new View.OnClickListener() {
             @Override

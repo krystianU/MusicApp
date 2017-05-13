@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
+import android.media.MediaPlayer;
 
 public class LibraryActivity extends AppCompatActivity {
 
@@ -14,13 +14,6 @@ public class LibraryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_library);
 
-        ImageView help = (ImageView) findViewById(R.id.help_image_view);
-        help.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "This activity contains all listed songs located in phone library", Toast.LENGTH_LONG).show();
-            }
-        });
         ImageView home = (ImageView) findViewById(R.id.home_image_view);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,5 +39,7 @@ public class LibraryActivity extends AppCompatActivity {
                 startActivity(searchIntent);
             }
         });
+
     }
+
 }

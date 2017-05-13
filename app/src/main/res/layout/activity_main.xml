@@ -15,12 +15,13 @@
         android:layout_margin="8dp"
         android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/help_image_view"
+        <TextView
+            android:id="@+id/activity_purpose_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_help_black_18dp"
-            android:layout_gravity="end"/>
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:text="@string/main_activity_purpose" />
 
     <TextView
         android:layout_width="wrap_content"

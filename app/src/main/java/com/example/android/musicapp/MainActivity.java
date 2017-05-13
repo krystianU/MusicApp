@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,12 +41,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
     });
-        ImageView help = (ImageView)findViewById(R.id.help_image_view);
-        help.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "This activity is the main one. From this place you can go into: Music library, playing now or search online section", Toast.LENGTH_LONG).show();
-            }
-        });
+
 }
 }
