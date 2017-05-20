@@ -9,7 +9,7 @@
     <string name="help">Help</string>
     <string name="library_activity_purpose">This activity contains all listed songs located in phone library</string>
     <string name="main_activity_purpose">This activity is the main one. From this place you can go into: Music library, playing now or search online section</string>
-    <string name="nowPlaying_activity_purpose">This activity shows you what song is now being played. You can use buttons to skip, forward, rewind, play or pause the song</string>
+    <string name="nowPlaying_activity_purpose">This activity shows you what song is now being played. You can use buttons to skip, forward, rewind, play or pause the song. Therefore it needs an external class named MediaPlayer to control playback of audio files</string>
     <string name="search_activity_purpose">In this activity you can search for the music in the internet database by typing queries in search box</string>
 
 </resources>
