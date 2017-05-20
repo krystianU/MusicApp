@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textStyle="italic"
-            android:text="@string/nowPlaying_activity_purpose" />
+            android:text="@string/nowPlaying_activity_purpose"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
